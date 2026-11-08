@@ -1,21 +1,41 @@
 body{
   background-color: #C6AC95;
 }
-.logo{
-    width: 100px;
-    height: 100px;
-    padding: 0 0 0 0;
-}
 .home{
     text-align: center;
-    padding: 5%;
+    padding: 2%;
 }
 #title {
 	font-size: 50px;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  padding: 15px 50px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.navbar a {
+  color: #5E7830;
+  text-decoration: none;
+}
+.navbar .navbar-logo {
+  margin-right: auto;
+}
+.navbar-logo img {
+  display: block;
+  width: 60px;
+  height: auto;
+}
 
 
-#bookpage-button, #services-button , #reserve-button {
+#bookpage-button, #gallery-button ,
+ #reserve-button, #learnMore-button {
     display: inline-flex;
     border-radius: 40px;
     height: 40px;
@@ -25,11 +45,11 @@ body{
     justify-content: center;
     text-decoration: none;
 }
-#bookpage-button, #reserve-button {
+#bookpage-button, #reserve-button , #learnMore-button{
     background-color: #5E7830;
     color: #F6F2EE;
 }
-#services-button {
+#gallery-button {
     background-color: #F6F2EE;
     color: #5E7830;
     border: 1px solid #5E7830;
@@ -37,7 +57,8 @@ body{
 
 
 .intro, .intro2, .intro3, .intro4, .intro5, .intro6{
-    padding: 100px 50px 0px 50px;
+    text-align: center;
+    padding: 10%;
     max-width: 90%;
     min-height: 500px;
     background-color: white;
@@ -73,7 +94,9 @@ body{
     background-image:;          /*???*/
     position:relative
 }
-.logo{
+.footer-logo {
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 50px;
 }
