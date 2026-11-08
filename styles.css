@@ -1,0 +1,87 @@
+body{
+  background-color: #C6AC95;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    padding: 0 0 0 0;
+}
+.home{
+    text-align: center;
+    padding: 5%;
+}
+#title {
+	font-size: 50px;
+}
+
+
+#bookpage-button, #services-button , #reserve-button {
+    display: inline-flex;
+    border-radius: 40px;
+    height: 40px;
+    width: 150px;
+    border-style: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+#bookpage-button, #reserve-button {
+    background-color: #5E7830;
+    color: #F6F2EE;
+}
+#services-button {
+    background-color: #F6F2EE;
+    color: #5E7830;
+    border: 1px solid #5E7830;
+}
+
+
+.intro, .intro2, .intro3, .intro4, .intro5, .intro6{
+    padding: 100px 50px 0px 50px;
+    max-width: 90%;
+    min-height: 500px;
+    background-color: white;
+}
+
+.intro{
+    background-image:;          /*???*/
+}
+.intro2{
+    background-color: #d9f7d9;
+    background-image:;          /*???*/
+}
+.intro3{
+    min-height: 700px;
+    background-image:;          /*???*/
+}
+.intro4{
+    
+    text-align: left;
+    background-color: #d9f7d9;
+    background-image:;          /*???*/
+}
+.intro4-benefits{
+    
+}
+
+.intro5{
+    min-height: 400px;
+    background-image:;          /*???*/
+}
+.intro6{
+    min-height: 400px;
+    background-image:;          /*???*/
+    position:relative
+}
+.logo{
+    position: absolute;
+    left: 50px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 5%;
+    text-align: left;
+    background-color: #EBFAEB;
+    
+}
