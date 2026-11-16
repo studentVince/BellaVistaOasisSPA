@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/galleryStyles.css">
+    <link rel="stylesheet" href="/css/sharedStyles.css" />
+</head>
+<body>
+    <nav class="navbar" aria-label="Main navigation">
+        <a class="navbar-logo" href="index.html">
+            <img src="images/logo.png" alt="Spa home">
+        </a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+        <a href="companyDetails.html">About Us</a>
+        <a href="termsAndConditions.html">Terms & Conditions</a>
+    </nav>
+
+    <main class="gallery-page">
+        <header class="gallery-heading">
+            <p class="eyebrow">Explore our spa</p>
+            <h1>Gallery</h1>
+            <p>Browse our treatments, rooms, and spa spaces.</p>
+        </header>
+
+        <div class="gallery-layout">
+            <aside class="filter-sidebar" aria-labelledby="filter-heading">
+                <h2 id="filter-heading">Filter by</h2>
+                <div class="filter-options" role="group" aria-label="Gallery categories">
+                    <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+                    <button class="filter-button" type="button" data-filter="treatments" aria-pressed="false">Treatments</button>
+                    <button class="filter-button" type="button" data-filter="rooms" aria-pressed="false">Rooms</button>
+                    <button class="filter-button" type="button" data-filter="facilities" aria-pressed="false">Facilities</button>
+                </div>
+            </aside>
+
+            <section class="gallery-content" aria-label="Gallery items">
+                <p class="gallery-count" aria-live="polite"></p>
+                <div class="gallery-grid">
+                    <article class="gallery-card" data-category="treatments">
+                        <div class="gallery-placeholder treatment-placeholder" role="img" aria-label="Placeholder for a treatment photo">
+                            <span>Treatments</span>
+                        </div>
+                        <h2>Treatment photo</h2>
+                    </article>
+                    <article class="gallery-card" data-category="treatments">
+                        <div class="gallery-placeholder treatment-placeholder treatment-placeholder-alt" role="img" aria-label="Placeholder for another treatment photo">
+                            <span>Treatments</span>
+                        </div>
+                        <h2>Treatment photo</h2>
+                    </article>
+                    <article class="gallery-card" data-category="rooms">
+                        <div class="gallery-placeholder room-placeholder" role="img" aria-label="Placeholder for a room photo">
+                            <span>Rooms</span>
+                        </div>
+                        <h2>Room photo</h2>
+                    </article>
+                    <article class="gallery-card" data-category="rooms">
+                        <div class="gallery-placeholder room-placeholder room-placeholder-alt" role="img" aria-label="Placeholder for another room photo">
+                            <span>Rooms</span>
+                        </div>
+                        <h2>Room photo</h2>
+                    </article>
+                    <article class="gallery-card" data-category="facilities">
+                        <div class="gallery-placeholder facility-placeholder" role="img" aria-label="Placeholder for a spa facility photo">
+                            <span>Facilities</span>
+                        </div>
+                        <h2>Facility photo</h2>
+                    </article>
+                    <article class="gallery-card" data-category="facilities">
+                        <div class="gallery-placeholder facility-placeholder facility-placeholder-alt" role="img" aria-label="Placeholder for another spa facility photo">
+                            <span>Facilities</span>
+                        </div>
+                        <h2>Facility photo</h2>
+                    </article>
+                </div>
+                <p class="empty-message" hidden>No photos in this category yet.</p>
+            </section>
+        </div>
+    </main>
+    <script src="galleryScript.js"></script>
+</body>
+</html>
