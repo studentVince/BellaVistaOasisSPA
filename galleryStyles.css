@@ -1,0 +1,24 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  padding: 15px 50px 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 30px;
+  box-sizing: border-box;
+}
+.navbar a {
+  color: #5E7830;
+  text-decoration: none;
+}
+.navbar .navbar-logo {
+  margin-right: auto;
+}
+.navbar-logo img {
+  display: block;
+  width: 60px;
+  height: auto;
+}
