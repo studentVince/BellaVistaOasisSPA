@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <title>Bella Vista Oasis SPA</title>
-        <link rel="stylesheet" href="/css/styles.css" />
-        <link rel="stylesheet" href="/css/sharedStyles.css" />
+        <link rel="stylesheet" href="../css/styles.css" />
+        <link rel="stylesheet" href="../css/sharedStyles.css" />
     </head>
+    
     <body>
         <div class = "home">
-            <nav class="navbar" aria-label="Main navigation">
-                <a class="navbar-logo" href="index.html">
-                    <img src="images/logo.png" alt="Spa home">
-                </a>
-                <a href="gallery.html">Gallery</a>
-                <a href="contact.html">Contact</a>
-                <a href="companyDetails.html">About Us</a>
-                <a href="termsAndConditions.html">Terms & Conditions</a>
-            </nav>
+            <nav id="nav" class="navbar" aria-label="Main navigation"></nav>
                 
 
             <div class = "intro">
@@ -59,15 +53,19 @@
             </div>
             
             <div class = "intro4">
-                <p style="color:#5E7830;">WHY CHOOSE US</p>
-                <h1 id="title">Where Every Detail Inspires Calm</h1>
-                <p style="color:gray;">
-                    Our spa is more than a place to unwind, it's a journey of renewal.
-                    We focus on <br>creating a serene atmosphere, personalized care, and
-                    exceptional service, so every <br>visit feels like an escape to peace. 
-                </p>
-                <div class = intro4-benefits>
-                    <h4 style="color:#5E7830;">CERTIFIED THERAPISTS</h4>
+                <div class = "besideDetails">
+                    <div>
+                        <p style="color:#5E7830;">WHY CHOOSE US</p>
+                        <h1 id="title">Where Every Detail Inspires Calm</h1>
+                        <p style="color:gray;">
+                            Our spa is more than a place to unwind, it's a journey of renewal.
+                            We focus on <br>creating a serene atmosphere, personalized care, and
+                            exceptional service, so every <br>visit feels like an escape to peace. 
+                        </p>
+                    </div>
+                    <div class = "intro4-benefits">
+                        <h4 style="color:#5E7830;">CERTIFIED THERAPISTS</h4>
+                    </div>
                 </div>
             </div>
             
@@ -81,16 +79,24 @@
             </div>
 
             <div class = "intro6">
-                <img src="image-url.jpg" alt="logo" class="footer-logo"/>
-                <p style="text-align: left;">
-                    Where relaxation meets rejuvenation, and every visit is a 
-                    step towards a more balanced you.<br>
-                    We're committed to providing an exceptional spa experience that leaves
-                    you feeling <br>renewed, revitalized, and ready to embrace the world with
-                    a renewed sense of energy <br>and inner peace.
-                </p>
-                <br>
-                <br>
+                <div class=besideDetails style="margin-top: 3rem">
+                    <div>
+                        <h2>About us</h2>
+                        <p>
+                            Bella Vista Oasis Spa is dedicated to holistic wellness, physical rejuvenation and
+                            deep relaxation. Surrounded by nature, it offers massage therapies, therapeutic
+                            treatments and private lounge experiences that melt stress away.
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Our story</h2>
+                        <p>
+                            Opened in 2021 as an extension of the Bella Vista estate, the spa grew into a
+                            standalone wellness center because guests kept coming back for the sessions and
+                            the calm. Locals and tourists both trust us.
+                        </p>
+                    </div>
+                </div>
                 <div class = "contact-info">
                     <p style="text-align: left;">
                         <b>Location:</b><br>
@@ -113,5 +119,7 @@
                 </div>
             </div>
         </div>
+        <script src="../js/sharedJS.js"></script>
+        <script src="../js/index.js"></script>
     </body>
 </html>

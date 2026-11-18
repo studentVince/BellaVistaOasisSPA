@@ -1,50 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/sharedStyles.css" />
-    <link rel="stylesheet" href="/css/bookingStyles.css" />
-</head>
-<body>
-    <nav class="navbar" aria-label="Main navigation"></nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking | Bella Vista Oasis Spa</title>
+        <link rel="stylesheet" href="../css/sharedStyles.css" />
+        <link rel="stylesheet" href="../css/bookingStyles.css" />
+    </head>
+    <body>
+        <nav id="nav" class="navbar" aria-label="Main navigation"></nav>
 
-    <main class="booking-page">
-        <header class="booking-heading">
-            <p class="eyebrow">Book your session</p>
-            <h1>Booking</h1>
-            <p>Reserve your spa experience with ease.</p>
-        </header>
+        <main class="booking-page">
+            <header class="booking-heading">
+                <p class="eyebrow">Book your session</p>
+                <h1>Booking</h1>
+                <p>Reserve your spa experience with ease.</p>
+            </header>
 
-        <section class="booking-form-section">
-            <form class="booking-form" action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <section class="booking-form-section">
+                <form class="booking-form" action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
 
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
 
-                <label for="service">Service:</label>
-                <select id="service" name="service" required>
-                    <option value="">Select a service</option>
-                    <option value="massage">Massage</option>
-                    <option value="facial">Facial</option>
-                    <option value="body-treatment">Body Treatment</option>
-                </select>
+                    <label for="service">Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Select a service</option>
+                        <option value="massage">Massage</option>
+                        <option value="facial">Facial</option>
+                        <option value="body-treatment">Body Treatment</option>
+                    </select>
 
-                <label for="date">Date:</label>
-                <input type="date" id="date" name="date" required>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required>
 
-                <label for="time">Time:</label>
-                <input type="time" id="time" name="time" required>
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required>
 
-                <button type="submit">Book Now</button>
-            </form>
-        </section>
-    </main>
-</body>
+                    <button type="submit">Book Now</button>
+                </form>
+            </section>
+        </main>
+        <script src="../js/sharedJS.js"></script>
+    </body>
 </html>
